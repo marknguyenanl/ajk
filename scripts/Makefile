@@ -1,19 +1,20 @@
 # Compiler
 CC = gcc
 
-# Compiler flags
+#Compiler flags
 CFLAGS = -Wall -Wextra -Ilib
 
 # Source files
-SRCS = main.c
+SRCS = db.c main.c
 
 # Output executable
-TARGET = ajk.o
+TARGET = ajk
 
 # Build target
 all: $(TARGET)
 
 $(TARGET): $(SRCS)
+	# $(CC) -o $(TARGET) $(SRCS)
 	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS)
 
 # Clean target
