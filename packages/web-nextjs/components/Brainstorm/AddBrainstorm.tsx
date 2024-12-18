@@ -9,19 +9,20 @@ export function AddBrainstorm(props: any) {
 	const [task, setTask] = useState(defaultTask);
 
 	const handleTask = (e: any) => {
-		setTask({ ...task, id: uuidv4(), title: e.target.value });
+		setTask({
+			...task,
+			id: uuidv4(),
+			title: e.target.value,
+			phase: "brainstorm",
+			parentId: selectedTaskId,
+		});
 	};
 
 	const handleSubmit = (e: any) => {
 		e.preventDefault();
-		setTask({
-			...task,
-			title: "",
-			phase: "brainstorm",
-			parent: selectedTaskId,
-		});
-		console.log("Task is set successfully in local");
 		addTask(task);
+		setTask({ ...task, title: "" });
+		console.log("Task is submitted successfully");
 	};
 
 	return (

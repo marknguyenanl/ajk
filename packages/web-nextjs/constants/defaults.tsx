@@ -2,7 +2,7 @@ export const defaultTask = {
 	id: "",
 	phase: "capture",
 	title: "",
-	parent: "",
+	parentId: "",
 	ft: "",
 	description: "",
 	context: "",

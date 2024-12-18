@@ -10,7 +10,7 @@ export default function Process(props: any) {
 		setPhase,
 		selectedTaskId,
 		setSelectedTaskId,
-		isContext,
+		context,
 	} = props;
 	const handleTaskPhase = useCallback(
 		(taskId: any, phase: string, context: string) => {
@@ -71,9 +71,9 @@ export default function Process(props: any) {
 
 				<Tasks
 					viewType="list"
-					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, isContext }}
+					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, context }}
 				/>
-				{/*  TODO: (toggle and context do not work together, so when setIsToggle then must disable isContext) */}
+				{/*  TODO: (toggle and context do not work together, so when setIsToggle then must disable context) */}
 			</div>
 		</>
 	);

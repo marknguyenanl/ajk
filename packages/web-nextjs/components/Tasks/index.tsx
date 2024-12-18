@@ -1,7 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import TaskDetails from "./TaskDetails";
 import { usePhasesFetch } from "@/composables/phaseFetch";
 import { useContextsFetch } from "@/composables/contextFetch";
+import { deleteTask } from "@/composables/taskFetch";
+
+interface Phases {
+	title: string;
+	sortedBy: string;
+	asc: boolean;
+}
+interface Contexts {
+	title: string;
+	sortedBy: string;
+	asc: boolean;
+}
+
 export default function Tasks(props: any) {
 	const {
 		phase,
@@ -10,36 +23,36 @@ export default function Tasks(props: any) {
 		viewType,
 		selectedTaskId,
 		setSelectedTaskId,
-		isContext,
+		context,
 	} = props;
 	// const firstProcessTask = tasks.find((task: any) => task.phase === "process");
 	const [enableAutoFocus, setEnableAutoFocus] = useState(false);
 
-	interface Phases {
-		title: string;
-		sortedBy: string;
-		asc: boolean;
-	}
-	interface Contexts {
-		title: string;
-		sortedBy: string;
-		asc: boolean;
-	}
 	const phases: Phases[] = usePhasesFetch();
 	const contexts: Contexts[] = useContextsFetch();
 
 	const handleEdit = () => {
 		setEnableAutoFocus(true);
 	};
+	const handleDelete = () => {
+		deleteTask(selectedTaskId);
+	};
+
+	useEffect(() => {
+		// Handle side effects related to enabling auto focus
+		if (enableAutoFocus) {
+			// Focus logic here, e.g., focusing an input field.
+			console.log("Auto focus enabled for task details.");
+		}
+		console.log(selectedTaskId);
+	}, [enableAutoFocus, selectedTaskId]);
 
 	const filteredTasksByContext = tasks.filter(
-		(task: any) => task.context === isContext,
+		(task: any) => task.context === context,
 	);
 	// TODO: (create sortedBy as according to Context)
-	const context = contexts.filter(
-		(context: any) => context.title === isContext,
-	);
-	const ascByContext = context.length ? context[0].asc : true;
+	const contextItem = contexts.filter((item: any) => item.title === context);
+	const ascByContext = contextItem.length ? contextItem[0].asc : true;
 	const sortedByCreatedByContext = ascByContext
 		? filteredTasksByContext.sort(
 				(a: any, b: any): any =>
@@ -62,7 +75,7 @@ export default function Tasks(props: any) {
 		? filteredTasksByContext.sort((a: any, b: any) => a.order - b.order)
 		: filteredTasksByContext.sort((a: any, b: any) => b.order - a.order);
 	let sortedByContext;
-	switch (isContext) {
+	switch (context) {
 		case "projects":
 			sortedByContext = sortedByOrderByContext;
 			break;
@@ -117,77 +130,106 @@ export default function Tasks(props: any) {
 			sortedByPhase = sortedByCreatedByPhase;
 			break;
 	}
-	const getIndexOfSelectedTask = (sortedItems: any) => {
-		const indexOfSelectedTask = sortedItems.findIndex(
-			(task: any) => task.id === selectedTaskId,
-		);
-		return indexOfSelectedTask;
-	};
 
-	const [cursor, setCursor] = useState(getIndexOfSelectedTask(sortedByPhase));
-	const handleKeyDown = (e: any) => {
-		if (e.key === "ArrowDown") {
-			const newCursor = Math.min(cursor + 1, sortedByPhase.length - 1);
-			setCursor(newCursor);
-		} else if (e.key === "ArrowUp") {
-			const newCursor = Math.max(0, cursor - 1);
-			setCursor(newCursor);
-		} else if (e.key === "Enter" && cursor) {
-			setSelectedTaskId(sortedByPhase[cursor].id);
-		}
-	};
+	const listItemsByPhase = (task: any) => {
+		const handleSelectTask = () => {
+			setSelectedTaskId(task.id);
+		};
 
-	const listItemsByPhase = (task: any) => (
-		<li
-			className={`p-1 px-2 mb-1 space-x-2 rounded-md border ${task.id === selectedTaskId ? "border-yellow-400" : "border-yellow-900"}`}
-			key={task.id}
-			onClick={() => {
-				setSelectedTaskId(task.id);
-				console.log(selectedTaskId);
-			}}
-			onKeyDown={handleKeyDown}
-		>
-			<div className="flex space-x-2">
-				<div className="flex space-x-2 grow">
-					{selectedTaskId !== task.id ? (
-						<>
-							<img src="circle-regular.svg" width="15px" height="15px" />
-							<p>{task.title}</p>
-						</>
-					) : phase === "capture" ? (
-						<>
-							<img src="circle-solid.svg" width="15px" height="15px" />
-							<TaskDetails {...{ task, phase, enableAutoFocus }} />
-						</>
-					) : phase === "process" ? (
-						<>
-							<img src="circle-solid.svg" width="15px" height="15px" />
-							<TaskDetails {...{ task, phase, enableAutoFocus }} />
-						</>
-					) : phase === "brainstorm" ? (
-						<>
-							<img src="circle-solid.svg" width="15px" height="15px" />
-							<TaskDetails {...{ task, phase, enableAutoFocus }} />
-						</>
-					) : phase === "organize" ? (
-						<>
-							<img src="circle-solid.svg" width="15px" height="15px" />
-							<TaskDetails {...{ task, phase, enableAutoFocus }} />
-						</>
-					) : (
-						phase === "engage" && (
+		return (
+			<li
+				className={`p-1 px-2 mb-1 space-x-2 rounded-md border ${task.id === selectedTaskId ? "border-yellow-400" : "border-yellow-900"}`}
+				key={task.id}
+				onClick={handleSelectTask}
+			>
+				<div className="flex space-x-2">
+					<div className="flex space-x-2 grow">
+						{selectedTaskId !== task.id ? (
+							<>
+								<img src="circle-regular.svg" width="15px" height="15px" />
+								<p>{task.title}</p>
+							</>
+						) : phase === "capture" ? (
 							<>
 								<img src="circle-solid.svg" width="15px" height="15px" />
-								<TaskDetails {...{ task, phase, enableAutoFocus }} />
+								<TaskDetails
+									{...{
+										phase,
+										enableAutoFocus,
+										selectedTaskId,
+									}}
+								/>
 							</>
-						)
-					)}
-				</div>
+						) : phase === "process" ? (
+							<>
+								<div className="mt-1.5">
+									<img src="circle-solid.svg" width="15px" height="15px" />
+								</div>
+								<TaskDetails
+									{...{
+										phase,
+										enableAutoFocus,
+										selectedTaskId,
+									}}
+								/>
+							</>
+						) : phase === "brainstorm" ? (
+							<>
+								<div className="mt-1.5">
+									<img src="circle-solid.svg" width="15px" height="15px" />
+								</div>
+								<TaskDetails
+									{...{
+										phase,
+										enableAutoFocus,
+										selectedTaskId,
+									}}
+								/>
+							</>
+						) : phase === "organize" ? (
+							<>
+								<div className="mt-1.5">
+									<img src="circle-solid.svg" width="15px" height="15px" />
+								</div>
+								<TaskDetails
+									{...{
+										phase,
+										enableAutoFocus,
+										selectedTaskId,
+									}}
+								/>
+							</>
+						) : (
+							phase === "engage" && (
+								<>
+									<div className="mt-1.5">
+										<img src="circle-solid.svg" width="15px" height="15px" />
+									</div>
+									<TaskDetails
+										{...{
+											phase,
+											enableAutoFocus,
+											selectedTaskId,
+										}}
+									/>
+								</>
+							)
+						)}
+					</div>
 
-				{phase === "capture" && <button onClick={handleEdit}>edit</button>}
-			</div>
-		</li>
-	);
+					<div className="flex space-x-2">
+						<button className="flex" onClick={handleEdit}>
+							edit
+						</button>
+						<p>|</p>
+						<button className="flex" onClick={handleDelete}>
+							delete
+						</button>
+					</div>
+				</div>
+			</li>
+		);
+	};
 
 	const listItemsByContext = () => {};
 
@@ -196,8 +238,8 @@ export default function Tasks(props: any) {
 			{viewType === "list" && (
 				<ul>
 					{/* TODO: (add to setting for phase sortby data) */}
-					{!isContext && phase && sortedByPhase.map(listItemsByPhase)}
-					{isContext && !phase && sortedByContext.map(listItemsByContext)}
+					{!context && phase && sortedByPhase.map(listItemsByPhase)}
+					{context && !phase && sortedByContext.map(listItemsByContext)}
 				</ul>
 			)}
 			{isCalendar && <div>Calendar</div>}

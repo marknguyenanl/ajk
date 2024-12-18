@@ -4,7 +4,7 @@ export function useContextsFetch() {
 	const [contexts, setContexts] = useState([]);
 
 	useEffect(() => {
-		const fetchPhases = async () => {
+		const fetchContexts = async () => {
 			try {
 				const response = await fetch("http://localhost:3000/contexts");
 				if (!response.ok) {
@@ -17,7 +17,7 @@ export function useContextsFetch() {
 			}
 		};
 
-		fetchPhases();
+		fetchContexts();
 	}, [contexts]);
 
 	return contexts;

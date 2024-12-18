@@ -10,7 +10,7 @@ export default function Organize(props: any) {
 		setPhase,
 		selectedTaskId,
 		setSelectedTaskId,
-		isContext,
+		context,
 	} = props;
 	const handleTaskPhase = useCallback(
 		(taskId: any, phase: string, context: string) => {
@@ -31,7 +31,6 @@ export default function Organize(props: any) {
 			<div className="flex-col space-y-4">
 				<div className="flex-col h-10">
 					<div className={`ml-auto space-x-4 w-96 flex`}>
-						{/* <Button onClick={handleAddButton(true)}>Add</Button> */}
 						<Button
 							onClick={handleTaskPhase(selectedTaskId, "engage", "@runaway")}
 						>
@@ -42,7 +41,7 @@ export default function Organize(props: any) {
 
 				<Tasks
 					viewType="list"
-					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, isContext }}
+					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, context }}
 				/>
 			</div>
 		</>

@@ -11,7 +11,7 @@ export default function Brainstorm(props: any) {
 		setPhase,
 		selectedTaskId,
 		setSelectedTaskId,
-		isContext,
+		context,
 	} = props;
 	const [isAddBrainstormed, setIsAddBrainstormed] = useState(false);
 	const handleAddBrainstorm = useCallback(
@@ -73,7 +73,7 @@ export default function Brainstorm(props: any) {
 
 				<Tasks
 					viewType="list"
-					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, isContext }}
+					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, context }}
 				/>
 			</div>
 		</>

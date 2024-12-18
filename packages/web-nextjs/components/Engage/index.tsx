@@ -10,7 +10,7 @@ export default function Engage(props: any) {
 		setPhase,
 		selectedTaskId,
 		setSelectedTaskId,
-		isContext,
+		context,
 	} = props;
 	const handleTaskPhase = useCallback(
 		(taskId: any, phase: string, context: string) => {
@@ -35,27 +35,18 @@ export default function Engage(props: any) {
 				<div className="flex-col h-10">
 					<div className={`ml-auto space-x-4 w-full flex  `}>
 						{/* <Button onClick={handleAddButton(true)}>Add</Button> */}
-						<Button
-							onClick={handleTaskPhase(selectedTaskId, "engage", "@runaway")}
-						>
+						<Button onClick={handleTaskPhase(selectedTaskId, "capture", "")}>
 							Revert to Capture
 						</Button>
-						<Button
-							onClick={handleTaskPhase(selectedTaskId, "engage", "@runaway")}
-						>
+						<Button onClick={() => setPhase("capture")}>
 							Continue Processing
-						</Button>
-						<Button
-							onClick={handleTaskPhase(selectedTaskId, "engage", "@runaway")}
-						>
-							Run away
 						</Button>
 					</div>
 				</div>
 
 				<Tasks
 					viewType="list"
-					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, isContext }}
+					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, context }}
 				/>
 			</div>
 		</>

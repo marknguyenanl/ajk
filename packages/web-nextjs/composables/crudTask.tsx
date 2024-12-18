@@ -39,23 +39,6 @@ export const updateTask = async (task: any) => {
 	}
 };
 
-export const fetchTask = async (taskId: any) => {
-	try {
-		const response = await fetch(`http://localhost:3000/tasks/${taskId}`, {
-			method: "GET",
-			headers: {
-				"Content-Type": "application/json",
-			},
-		});
-		if (!response.ok) {
-			throw new Error("Could not create a task");
-		}
-		console.log("Task is set successfully updated in database");
-	} catch (error) {
-		console.log("Error while updating a task");
-	}
-};
-
 export const convertTask = async (
 	taskId: any,
 	phase: string,

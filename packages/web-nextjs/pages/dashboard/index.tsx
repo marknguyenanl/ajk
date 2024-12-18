@@ -10,7 +10,7 @@ import { useCallback, useState } from "react";
 
 export default function Dashboard() {
 	const [phase, setPhase] = useState("capture");
-	const [isContext, setIsContext] = useState("");
+	const [context, setContext] = useState("");
 	const [isCalendar, setIsCalendar] = useState(false);
 	const [selectedTaskId, setSelectedTaskId] = useState(""); // TODO: (this will be the id of the task that is selected] useState("")
 	const tasks = useTasksFetch(); // an array here
@@ -22,11 +22,11 @@ export default function Dashboard() {
 	const listTask = (type: string, text: string) => {
 		if (type === "phase") {
 			setPhase(text);
-			setIsContext("");
+			setContext("");
 		}
 		if (type === "context") {
 			setPhase("");
-			setIsContext(text);
+			setContext(text);
 		}
 	};
 
@@ -58,7 +58,7 @@ export default function Dashboard() {
 								setPhase,
 								selectedTaskId,
 								setSelectedTaskId,
-								isContext,
+								context,
 							}}
 						/>
 					)}
@@ -70,7 +70,7 @@ export default function Dashboard() {
 								setPhase,
 								selectedTaskId,
 								setSelectedTaskId,
-								isContext,
+								context,
 							}}
 						/>
 					)}
@@ -82,7 +82,7 @@ export default function Dashboard() {
 								setPhase,
 								selectedTaskId,
 								setSelectedTaskId,
-								isContext,
+								context,
 							}}
 						/>
 					)}
@@ -94,7 +94,7 @@ export default function Dashboard() {
 								setPhase,
 								selectedTaskId,
 								setSelectedTaskId,
-								isContext,
+								context,
 							}}
 						/>
 					)}
@@ -106,7 +106,7 @@ export default function Dashboard() {
 								setPhase,
 								selectedTaskId,
 								setSelectedTaskId,
-								isContext,
+								context,
 							}}
 						/>
 					)}
@@ -121,7 +121,7 @@ export default function Dashboard() {
 							<>
 								<Button onClick={handleCalendar}>Calendar</Button>
 								<Button onClick={handleListTask("context", "@runaway")}>
-									Run Away
+									Runaway
 								</Button>
 								<Button onClick={handleListTask("context", "projects")}>
 									10,000ft

@@ -449,36 +449,6 @@
       "updated": "2024-12-17T16:18:09.851Z"
     },
     {
-      "id": "d0c875b4-b696-4011-8294-c83f94067e31",
-      "phase": "organize",
-      "title": "hyey",
-      "parentId": "",
-      "ft": "",
-      "description": "",
-      "context": "projects",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T16:59:53.932Z",
-      "updated": "2024-12-17T21:08:40.776Z"
-    },
-    {
       "id": "9c67e3de-25ff-4a80-af6a-098556c6eac5",
       "phase": "brainstorm",
       "title": "haha cool",
@@ -629,66 +599,6 @@
       "updated": "2024-12-17T17:00:12.911Z"
     },
     {
-      "id": "0da59b0d-dc9c-4559-9c52-b659d03986d2",
-      "phase": "organize",
-      "title": "alskdfj",
-      "parentId": "",
-      "ft": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T17:00:14.413Z",
-      "updated": "2024-12-17T17:00:14.413Z"
-    },
-    {
-      "id": "63ad0d92-26eb-4b47-969b-2185f6184a2e",
-      "phase": "brainstorm",
-      "title": "fkgj",
-      "parentId": "",
-      "ft": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T17:00:15.310Z",
-      "updated": "2024-12-17T17:00:15.310Z"
-    },
-    {
       "id": "ab1db123-129c-41ab-a6d7-86176dc2c941",
       "phase": "engage",
       "title": "ok",
@@ -717,36 +627,6 @@
       },
       "created": "2024-12-17T17:00:19.214Z",
       "updated": "2024-12-17T21:05:56.990Z"
-    },
-    {
-      "id": "b85707b9-8983-4791-9e5a-0a939f8276e1",
-      "phase": "organize",
-      "title": "then",
-      "parentId": "",
-      "ft": "",
-      "description": "",
-      "context": "projects",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T17:00:45.293Z",
-      "updated": "2024-12-17T21:03:20.473Z"
     },
     {
       "id": "a171e3de-334e-4c7b-b51e-f59536b9576e",
@@ -836,7 +716,7 @@
         ]
       },
       "created": "2024-12-17T19:06:38.795Z",
-      "updated": "2024-12-18T03:42:00.906Z"
+      "updated": "2024-12-18T04:03:55.577Z"
     },
     {
       "id": "dccd14e4-d970-43f4-9c3d-647040bd0798",
@@ -986,7 +866,7 @@
         ]
       },
       "created": "2024-12-17T21:31:18.896Z",
-      "updated": "2024-12-18T03:41:56.538Z"
+      "updated": "2024-12-18T04:01:41.931Z"
     },
     {
       "id": "48bdb417-15fc-4555-8f6e-407e6ac61b43",
@@ -1259,39 +1139,9 @@
       "updated": "2024-12-17T22:41:39.636Z"
     },
     {
-      "id": "1c6cbda5-7977-4310-8232-66c9e213f92d",
-      "phase": "organize",
-      "title": "kdfj",
-      "parent": "",
-      "ft": "",
-      "description": "",
-      "context": "@runaway",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T22:41:41.229Z",
-      "updated": "2024-12-18T03:38:03.985Z"
-    },
-    {
       "id": "b8f2c0db-5b73-410b-930a-bcd830898ea8",
       "phase": "capture",
-      "title": "kdjfk",
+      "title": "kdjfkkj",
       "parent": "",
       "ft": "",
       "description": "",
@@ -1316,7 +1166,7 @@
         ]
       },
       "created": "2024-12-17T22:41:45.741Z",
-      "updated": "2024-12-17T22:41:45.741Z"
+      "updated": "2024-12-18T06:32:44.611Z"
     },
     {
       "id": "33442434-a6c4-41e2-ad31-60f427e81486",
@@ -1376,7 +1226,7 @@
         ]
       },
       "created": "2024-12-17T22:41:57.899Z",
-      "updated": "2024-12-18T03:36:39.146Z"
+      "updated": "2024-12-18T06:33:54.326Z"
     },
     {
       "id": "09ae617a-0a97-408c-8d5c-8aa9ee2de195",
@@ -1436,7 +1286,7 @@
         ]
       },
       "created": "2024-12-17T22:42:08.972Z",
-      "updated": "2024-12-18T03:35:12.604Z"
+      "updated": "2024-12-18T06:19:48.947Z"
     },
     {
       "id": "a4d52b18-0142-4849-99ea-e71bb4459629",
@@ -1466,12 +1316,42 @@
         ]
       },
       "created": "2024-12-18T02:56:13.753Z",
-      "updated": "2024-12-18T03:35:10.733Z"
+      "updated": "2024-12-18T06:19:56.138Z"
     },
     {
       "id": "c0b9f25d-f9d3-451b-b572-d46ad7a88ce4",
+      "phase": "brainstorm",
+      "title": "check if this on topdf",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "projects",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-18T02:58:57.747Z",
+      "updated": "2024-12-18T07:11:09.533Z"
+    },
+    {
+      "id": "485a2353-6e7a-490e-ae1e-94b7f2371724",
       "phase": "capture",
-      "title": "check if this on top",
+      "title": "new",
       "parent": "",
       "ft": "",
       "description": "",
@@ -1495,8 +1375,158 @@
           {}
         ]
       },
-      "created": "2024-12-18T02:58:57.747Z",
-      "updated": "2024-12-18T03:35:09.350Z"
+      "created": "2024-12-18T07:13:47.072Z",
+      "updated": "2024-12-18T07:13:47.072Z"
+    },
+    {
+      "id": "fa3ad34a-1cad-41af-971a-997130cbdc77",
+      "phase": "capture",
+      "title": "kejr",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-18T07:13:53.628Z",
+      "updated": "2024-12-18T07:13:53.628Z"
+    },
+    {
+      "id": "0ee94b25-50bc-4786-ac59-85f8a3ad37f4",
+      "phase": "capture",
+      "title": "ok",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-18T07:14:04.189Z",
+      "updated": "2024-12-18T07:14:04.189Z"
+    },
+    {
+      "id": "bffafe1f-f54e-4c1f-8cfd-2a197fb146c1",
+      "phase": "brainstorm",
+      "title": "okjkldsajfjkdfj",
+      "parent": "8dec8ab5-3c7d-4ca1-926c-8014671f7f5c",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-18T07:14:06.636Z",
+      "updated": "2024-12-18T07:22:26.349Z"
+    },
+    {
+      "id": "d79ee992-485f-4a6f-949e-25c9e1a9f862",
+      "phase": "brainstorm",
+      "title": "dkfj",
+      "parent": "8dec8ab5-3c7d-4ca1-926c-8014671f7f5c",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-18T07:14:08.484Z",
+      "updated": "2024-12-18T07:14:08.484Z"
+    },
+    {
+      "id": "d03ceb18-6238-4f94-8004-f0540616863d",
+      "phase": "brainstorm",
+      "title": "dk",
+      "parent": "8dec8ab5-3c7d-4ca1-926c-8014671f7f5c",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-18T07:14:10.300Z",
+      "updated": "2024-12-18T07:14:10.300Z"
     }
   ]
 }

@@ -11,7 +11,7 @@ export default function Capture(props: any) {
 		setPhase,
 		selectedTaskId,
 		setSelectedTaskId,
-		isContext,
+		context,
 	} = props;
 	const [isAddItem, setIsAddItem] = useState(false);
 	const handleAddButton = useCallback(
@@ -54,7 +54,7 @@ export default function Capture(props: any) {
 
 				<Tasks
 					viewType="list"
-					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, isContext }}
+					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, context }}
 				/>
 			</div>
 		</>

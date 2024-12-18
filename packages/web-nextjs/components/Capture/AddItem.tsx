@@ -14,9 +14,9 @@ export function AddItem(props: any) {
 
 	const handleSubmit = (e: any) => {
 		e.preventDefault();
-		setTask({ ...task, title: "" });
-		console.log("Task is set successfully in local");
 		addTask(task);
+		setTask({ ...task, title: "" });
+		console.log("Task is submitted successfully");
 	};
 
 	return (
