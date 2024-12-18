@@ -1,0 +1,1502 @@
+{
+  "contexts": [
+    {
+      "id": "1",
+      "title": "@office",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "2",
+      "title": "@home",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "3",
+      "title": "@computer",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "4",
+      "title": "@errands",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "5",
+      "title": "@telephone",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "6",
+      "title": "@agenda",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "7",
+      "title": "@read/review",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "8",
+      "title": "@runaway",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "9",
+      "title": "projects",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "10",
+      "title": "aors",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "11",
+      "title": "objects",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "12",
+      "title": "goals",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "13",
+      "title": "life",
+      "sortedBy": "created",
+      "asc": false
+    }
+  ],
+  "phases": [
+    {
+      "id": "1",
+      "title": "capture",
+      "sortedBy": "created",
+      "asc": false
+    },
+    {
+      "id": "2",
+      "title": "process",
+      "sortedBy": "updated",
+      "asc": false
+    },
+    {
+      "id": "3",
+      "title": "brainstorm",
+      "sortedBy": "updated",
+      "asc": false
+    },
+    {
+      "id": "4",
+      "title": "organize",
+      "sortedBy": "order",
+      "asc": false
+    },
+    {
+      "id": "5",
+      "title": "engage",
+      "sortedBy": "updated",
+      "asc": false
+    },
+    {
+      "id": "6",
+      "title": "trash",
+      "sortedBy": "updated",
+      "asc": false
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1516981b-6a6a-4d70-9260-8cbd50873122",
+      "phase": "capture",
+      "title": "gggggg",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T15:08:23.609Z",
+      "updated": "2024-12-17T15:08:23.609Z"
+    },
+    {
+      "id": "670e6821-f1c2-48d2-8bb2-c2c1efe7aeff",
+      "phase": "capture",
+      "title": "new",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T15:27:03.265Z",
+      "updated": "2024-12-17T22:24:39.511Z"
+    },
+    {
+      "id": "1c1768f6-9f19-47de-a9a6-ad7cbf9a2bbc",
+      "phase": "brainstorm",
+      "title": "one",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T15:27:04.464Z",
+      "updated": "2024-12-17T15:27:04.464Z"
+    },
+    {
+      "id": "a1c43d8c-f5bc-4f16-b6c1-a6383b01f4d3",
+      "phase": "brainstorm",
+      "title": "ok",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T15:27:05.456Z",
+      "updated": "2024-12-17T15:27:05.456Z"
+    },
+    {
+      "id": "482f1ded-453f-429f-9b36-6a8f112b6656",
+      "phase": "process",
+      "title": "la",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T15:27:06.225Z",
+      "updated": "2024-12-17T15:27:06.225Z"
+    },
+    {
+      "id": "994457ac-d243-4339-b648-adb67465cbfa",
+      "phase": "brainstorm",
+      "title": "ok",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T15:30:52.442Z",
+      "updated": "2024-12-17T15:30:52.442Z"
+    },
+    {
+      "id": "d180ec6e-cd2a-4df7-a9ec-76c8942d3cd9",
+      "phase": "process",
+      "title": "hey",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T15:31:08.671Z",
+      "updated": "2024-12-17T15:31:08.671Z"
+    },
+    {
+      "id": "76767897-42f8-4b9c-8695-b1acd9eae70b",
+      "phase": "brainstorm",
+      "title": "good",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T15:31:14.861Z",
+      "updated": "2024-12-17T15:31:14.861Z"
+    },
+    {
+      "id": "c302cc4d-8e24-4837-89fa-fc0392ad76b1",
+      "phase": "process",
+      "title": "check this out",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T15:50:04.149Z",
+      "updated": "2024-12-17T15:50:04.149Z"
+    },
+    {
+      "id": "91c923b9-03b7-4838-8e6b-cdadb3e0383a",
+      "phase": "process",
+      "title": "hey",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T16:04:41.489Z",
+      "updated": "2024-12-17T16:04:41.489Z"
+    },
+    {
+      "id": "015357c2-cebf-46e6-99c6-a613e96c7e4f",
+      "phase": "brainstorm",
+      "title": "kdfjk",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T16:18:09.851Z",
+      "updated": "2024-12-17T16:18:09.851Z"
+    },
+    {
+      "id": "d0c875b4-b696-4011-8294-c83f94067e31",
+      "phase": "organize",
+      "title": "hyey",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "projects",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T16:59:53.932Z",
+      "updated": "2024-12-17T21:08:40.776Z"
+    },
+    {
+      "id": "9c67e3de-25ff-4a80-af6a-098556c6eac5",
+      "phase": "brainstorm",
+      "title": "haha cool",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T16:59:57.399Z",
+      "updated": "2024-12-17T16:59:57.399Z"
+    },
+    {
+      "id": "03c119a1-21bb-498e-b19e-c5e7b4359b96",
+      "phase": "process",
+      "title": "okala",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T17:00:05.519Z",
+      "updated": "2024-12-17T21:06:02.533Z"
+    },
+    {
+      "id": "686a660f-95e6-4db0-9fc1-46588d3b82d4",
+      "phase": "brainstorm",
+      "title": "haahcool",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T17:00:08.510Z",
+      "updated": "2024-12-17T17:00:08.510Z"
+    },
+    {
+      "id": "4547dfeb-087f-4aad-95f7-7f0d11e7ef73",
+      "phase": "brainstorm",
+      "title": "haha",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T17:00:11.103Z",
+      "updated": "2024-12-17T17:00:11.103Z"
+    },
+    {
+      "id": "de8b202d-255a-40be-9204-4db69440c8ab",
+      "phase": "brainstorm",
+      "title": "okdf",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T17:00:12.911Z",
+      "updated": "2024-12-17T17:00:12.911Z"
+    },
+    {
+      "id": "0da59b0d-dc9c-4559-9c52-b659d03986d2",
+      "phase": "organize",
+      "title": "alskdfj",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T17:00:14.413Z",
+      "updated": "2024-12-17T17:00:14.413Z"
+    },
+    {
+      "id": "63ad0d92-26eb-4b47-969b-2185f6184a2e",
+      "phase": "brainstorm",
+      "title": "fkgj",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T17:00:15.310Z",
+      "updated": "2024-12-17T17:00:15.310Z"
+    },
+    {
+      "id": "ab1db123-129c-41ab-a6d7-86176dc2c941",
+      "phase": "engage",
+      "title": "ok",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "@runaway",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T17:00:19.214Z",
+      "updated": "2024-12-17T21:05:56.990Z"
+    },
+    {
+      "id": "b85707b9-8983-4791-9e5a-0a939f8276e1",
+      "phase": "organize",
+      "title": "then",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "projects",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T17:00:45.293Z",
+      "updated": "2024-12-17T21:03:20.473Z"
+    },
+    {
+      "id": "a171e3de-334e-4c7b-b51e-f59536b9576e",
+      "phase": "brainstorm",
+      "title": "new things",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T17:00:49.103Z",
+      "updated": "2024-12-17T17:00:49.103Z"
+    },
+    {
+      "id": "33c1252d-84f7-4607-a607-3302582b8e2e",
+      "phase": "process",
+      "title": "",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T19:01:52.518Z",
+      "updated": "2024-12-17T20:43:35.755Z"
+    },
+    {
+      "id": "10abaa08-ee84-4ec7-9926-6e23dd6cc252",
+      "phase": "engage",
+      "title": "like new",
+      "parentId": "",
+      "ft": "",
+      "description": "",
+      "context": "@runaway",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T19:06:38.795Z",
+      "updated": "2024-12-18T03:42:00.906Z"
+    },
+    {
+      "id": "dccd14e4-d970-43f4-9c3d-647040bd0798",
+      "phase": "capture",
+      "title": "new thing good",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T21:19:20.196Z",
+      "updated": "2024-12-17T22:23:45.666Z"
+    },
+    {
+      "id": "6ba6b622-3b4c-4c94-9eb7-3f11e94fc54e",
+      "phase": "capture",
+      "title": "hello",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T21:31:15.519Z",
+      "updated": "2024-12-17T21:31:15.519Z"
+    },
+    {
+      "id": "516bdbea-89ed-43b9-abbf-dcb32cef3724",
+      "phase": "capture",
+      "title": "adskfj",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T21:31:16.882Z",
+      "updated": "2024-12-17T21:31:16.882Z"
+    },
+    {
+      "id": "03f359b6-ab8c-4d1e-9ff5-547647f91f66",
+      "phase": "capture",
+      "title": "adslfkj",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T21:31:17.593Z",
+      "updated": "2024-12-17T21:31:17.593Z"
+    },
+    {
+      "id": "5b1b20fa-93d3-4dcd-a532-4fc0b2879fb1",
+      "phase": "engage",
+      "title": "adskfkg",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "@runaway",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T21:31:18.896Z",
+      "updated": "2024-12-18T03:41:56.538Z"
+    },
+    {
+      "id": "48bdb417-15fc-4555-8f6e-407e6ac61b43",
+      "phase": "trash",
+      "title": "fff",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T21:31:19.832Z",
+      "updated": "2024-12-17T21:52:53.213Z"
+    },
+    {
+      "id": "5fff3c30-75a4-4837-9c51-833204e54bc5",
+      "phase": "capture",
+      "title": "hell",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:12.232Z",
+      "updated": "2024-12-17T22:41:12.232Z"
+    },
+    {
+      "id": "d97d287c-c7ff-4222-85ae-839091d7ca62",
+      "phase": "brainstorm",
+      "title": "yea",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:15.174Z",
+      "updated": "2024-12-17T22:41:15.174Z"
+    },
+    {
+      "id": "0733225b-5476-4827-914f-3a3648bab667",
+      "phase": "brainstorm",
+      "title": "ldlf",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:17.566Z",
+      "updated": "2024-12-17T22:41:17.566Z"
+    },
+    {
+      "id": "14e3b1ee-2cb0-41f9-a8b8-087227940f80",
+      "phase": "brainstorm",
+      "title": "hell",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:20.720Z",
+      "updated": "2024-12-17T22:41:20.720Z"
+    },
+    {
+      "id": "aab7a11a-4877-4149-ac6e-4fbc5338535e",
+      "phase": "brainstorm",
+      "title": "good",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:22.838Z",
+      "updated": "2024-12-17T22:41:22.838Z"
+    },
+    {
+      "id": "d84252de-6308-4d32-94e2-e6135681c717",
+      "phase": "brainstorm",
+      "title": "toknow",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:24.953Z",
+      "updated": "2024-12-17T22:41:24.953Z"
+    },
+    {
+      "id": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
+      "phase": "capture",
+      "title": "okla",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:36.294Z",
+      "updated": "2024-12-17T22:41:36.294Z"
+    },
+    {
+      "id": "8dec8ab5-3c7d-4ca1-926c-8014671f7f5c",
+      "phase": "brainstorm",
+      "title": "okla",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:39.636Z",
+      "updated": "2024-12-17T22:41:39.636Z"
+    },
+    {
+      "id": "1c6cbda5-7977-4310-8232-66c9e213f92d",
+      "phase": "organize",
+      "title": "kdfj",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "@runaway",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:41.229Z",
+      "updated": "2024-12-18T03:38:03.985Z"
+    },
+    {
+      "id": "b8f2c0db-5b73-410b-930a-bcd830898ea8",
+      "phase": "capture",
+      "title": "kdjfk",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:45.741Z",
+      "updated": "2024-12-17T22:41:45.741Z"
+    },
+    {
+      "id": "33442434-a6c4-41e2-ad31-60f427e81486",
+      "phase": "capture",
+      "title": ",,,",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:53.354Z",
+      "updated": "2024-12-17T22:41:53.354Z"
+    },
+    {
+      "id": "b8ba5a87-de53-4e8a-86f0-3878be014e3b",
+      "phase": "capture",
+      "title": ",,,",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:41:57.899Z",
+      "updated": "2024-12-18T03:36:39.146Z"
+    },
+    {
+      "id": "09ae617a-0a97-408c-8d5c-8aa9ee2de195",
+      "phase": "capture",
+      "title": "kdjfk",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:42:03.037Z",
+      "updated": "2024-12-18T03:24:42.951Z"
+    },
+    {
+      "id": "601c5863-3a4c-4dc3-8c00-e24c09ef596d",
+      "phase": "capture",
+      "title": "k",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-17T22:42:08.972Z",
+      "updated": "2024-12-18T03:35:12.604Z"
+    },
+    {
+      "id": "a4d52b18-0142-4849-99ea-e71bb4459629",
+      "phase": "capture",
+      "title": "hey there",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-18T02:56:13.753Z",
+      "updated": "2024-12-18T03:35:10.733Z"
+    },
+    {
+      "id": "c0b9f25d-f9d3-451b-b572-d46ad7a88ce4",
+      "phase": "capture",
+      "title": "check if this on top",
+      "parent": "",
+      "ft": "",
+      "description": "",
+      "context": "",
+      "time": "",
+      "enegery": "",
+      "completed": "",
+      "isCalendar": false,
+      "order": 1,
+      "calendar": {
+        "startTime": "date",
+        "endTime": "date",
+        "repeated": {
+          "enable": true,
+          "frequency": "1",
+          "day": "",
+          "month": "",
+          "year": ""
+        },
+        "calendarRef": [
+          {}
+        ]
+      },
+      "created": "2024-12-18T02:58:57.747Z",
+      "updated": "2024-12-18T03:35:09.350Z"
+    }
+  ]
+}
