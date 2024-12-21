@@ -17,6 +17,7 @@ export default function Navbar() {
 					<NavItem title="Dashboard" url="dashboard" />
 					{/* TODO: (if isLogin = true then show name of account at the bottom of navbar) */}
 					<NavItem title="Settings" url="settings" />
+					<NavItem title="Phases" url="phases" />
 					{/* TODO: (add optional to turn off task properties panel) */}
 				</ul>
 			</nav>

@@ -18,7 +18,7 @@ export function usePhasesFetch() {
 		};
 
 		fetchPhases();
-	}, [phases]);
+	}, []);
 
 	return phases;
 }

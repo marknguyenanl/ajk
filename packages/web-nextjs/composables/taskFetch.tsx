@@ -1,4 +1,3 @@
-import { defaultTask } from "@/constants/defaults";
 import { useState, useEffect } from "react";
 
 export function useTasksFetch() {
@@ -19,7 +18,7 @@ export function useTasksFetch() {
 		};
 
 		fetchTasks();
-	}, [tasks]);
+	}, []);
 
 	return tasks;
 }

@@ -5,14 +5,8 @@ import { convertTask as convertTask } from "@/composables/crudTask";
 import { AddBrainstorm } from "./AddBrainstorm";
 
 export default function Brainstorm(props: any) {
-	const {
-		tasks,
-		phase,
-		setPhase,
-		selectedTaskId,
-		setSelectedTaskId,
-		context,
-	} = props;
+	const { tasks, phase, setPhase, selectedTaskId, setSelectedTaskId, context } =
+		props;
 	const [isAddBrainstormed, setIsAddBrainstormed] = useState(false);
 	const handleAddBrainstorm = useCallback(
 		(boolean: boolean) => {

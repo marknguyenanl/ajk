@@ -18,7 +18,7 @@ export function useContextsFetch() {
 		};
 
 		fetchContexts();
-	}, [contexts]);
+	}, []);
 
 	return contexts;
 }

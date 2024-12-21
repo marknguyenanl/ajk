@@ -4,14 +4,8 @@ import Tasks from "../Tasks";
 import { convertTask as convertTask } from "@/composables/crudTask";
 
 export default function Process(props: any) {
-	const {
-		tasks,
-		phase,
-		setPhase,
-		selectedTaskId,
-		setSelectedTaskId,
-		context,
-	} = props;
+	const { tasks, phase, setPhase, selectedTaskId, setSelectedTaskId, context } =
+		props;
 	const handleTaskPhase = useCallback(
 		(taskId: any, phase: string, context: string) => {
 			return () => {
@@ -33,10 +27,6 @@ export default function Process(props: any) {
 					<div className="flex ml-auto space-x-4 w-full">
 						<Button onClick={handleTaskPhase(selectedTaskId, "capture", "")}>
 							Revert to Capture
-							{/* TODO: (this will work correctly by adding updated date) */}
-							{/* TODO: (due to new item is process but the list remain old one) */}
-							{/* TODO: (if has more than two in process then only keep the latest one, others will be converted back to capture) */}
-							{/* TODO: (if there is a item in process then css of process show ! icon, when hover it showing notify) */}
 						</Button>
 						<Button onClick={handleTaskPhase(selectedTaskId, "trash", "")}>
 							Throw to Trash

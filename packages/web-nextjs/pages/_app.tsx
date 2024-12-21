@@ -1,3 +1,4 @@
+import StoreProvider from "@/app/StoreProvider";
 import Layout from "@/components/layout";
 import "@/styles/globals.css";
 
@@ -6,8 +7,10 @@ export default function MyApp({
 	pageProps,
 }: { Component: any; pageProps: any }) {
 	return (
-		<Layout>
-			<Component {...pageProps} />
-		</Layout>
+		<StoreProvider>
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</StoreProvider>
 	);
 }

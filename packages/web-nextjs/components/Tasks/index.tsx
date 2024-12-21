@@ -26,26 +26,13 @@ export default function Tasks(props: any) {
 		context,
 	} = props;
 	// const firstProcessTask = tasks.find((task: any) => task.phase === "process");
-	const [enableAutoFocus, setEnableAutoFocus] = useState(false);
 
 	const phases: Phases[] = usePhasesFetch();
 	const contexts: Contexts[] = useContextsFetch();
 
-	const handleEdit = () => {
-		setEnableAutoFocus(true);
-	};
 	const handleDelete = () => {
 		deleteTask(selectedTaskId);
 	};
-
-	useEffect(() => {
-		// Handle side effects related to enabling auto focus
-		if (enableAutoFocus) {
-			// Focus logic here, e.g., focusing an input field.
-			console.log("Auto focus enabled for task details.");
-		}
-		console.log(selectedTaskId);
-	}, [enableAutoFocus, selectedTaskId]);
 
 	const filteredTasksByContext = tasks.filter(
 		(task: any) => task.context === context,
@@ -130,6 +117,26 @@ export default function Tasks(props: any) {
 			sortedByPhase = sortedByCreatedByPhase;
 			break;
 	}
+	const currentPosition = sortedByPhase.findIndex(
+		(item: any) => item.id === selectedTaskId,
+	);
+	const [cursor, setCursor] = useState(
+		currentPosition >= 0 ? currentPosition : 0,
+	);
+
+	const handleKeyDown = (e: any) => {
+		if (e.key === "ArrowDown") {
+			let newCursor = Math.min(cursor + 1, tasks.length - 1);
+			setCursor(newCursor);
+		}
+		if (e.key === "ArrowUp") {
+			let newCursor = Math.max(0, cursor - 1);
+			setCursor(newCursor);
+		}
+		if (e.key === "d") {
+			handleDelete();
+		}
+	};
 
 	const listItemsByPhase = (task: any) => {
 		const handleSelectTask = () => {
@@ -141,6 +148,7 @@ export default function Tasks(props: any) {
 				className={`p-1 px-2 mb-1 space-x-2 rounded-md border ${task.id === selectedTaskId ? "border-yellow-400" : "border-yellow-900"}`}
 				key={task.id}
 				onClick={handleSelectTask}
+				onKeyDown={handleKeyDown}
 			>
 				<div className="flex space-x-2">
 					<div className="flex space-x-2 grow">
@@ -149,18 +157,17 @@ export default function Tasks(props: any) {
 								<img src="circle-regular.svg" width="15px" height="15px" />
 								<p>{task.title}</p>
 							</>
-						) : phase === "capture" ? (
+						) : phase === "Capture" ? (
 							<>
 								<img src="circle-solid.svg" width="15px" height="15px" />
 								<TaskDetails
 									{...{
 										phase,
-										enableAutoFocus,
 										selectedTaskId,
 									}}
 								/>
 							</>
-						) : phase === "process" ? (
+						) : phase === "Process" ? (
 							<>
 								<div className="mt-1.5">
 									<img src="circle-solid.svg" width="15px" height="15px" />
@@ -168,12 +175,11 @@ export default function Tasks(props: any) {
 								<TaskDetails
 									{...{
 										phase,
-										enableAutoFocus,
 										selectedTaskId,
 									}}
 								/>
 							</>
-						) : phase === "brainstorm" ? (
+						) : phase === "Brainstorm" ? (
 							<>
 								<div className="mt-1.5">
 									<img src="circle-solid.svg" width="15px" height="15px" />
@@ -181,12 +187,11 @@ export default function Tasks(props: any) {
 								<TaskDetails
 									{...{
 										phase,
-										enableAutoFocus,
 										selectedTaskId,
 									}}
 								/>
 							</>
-						) : phase === "organize" ? (
+						) : phase === "Organize" ? (
 							<>
 								<div className="mt-1.5">
 									<img src="circle-solid.svg" width="15px" height="15px" />
@@ -194,13 +199,12 @@ export default function Tasks(props: any) {
 								<TaskDetails
 									{...{
 										phase,
-										enableAutoFocus,
 										selectedTaskId,
 									}}
 								/>
 							</>
 						) : (
-							phase === "engage" && (
+							phase === "Engage" && (
 								<>
 									<div className="mt-1.5">
 										<img src="circle-solid.svg" width="15px" height="15px" />
@@ -208,7 +212,6 @@ export default function Tasks(props: any) {
 									<TaskDetails
 										{...{
 											phase,
-											enableAutoFocus,
 											selectedTaskId,
 										}}
 									/>
@@ -218,10 +221,6 @@ export default function Tasks(props: any) {
 					</div>
 
 					<div className="flex space-x-2">
-						<button className="flex" onClick={handleEdit}>
-							edit
-						</button>
-						<p>|</p>
 						<button className="flex" onClick={handleDelete}>
 							delete
 						</button>
@@ -232,14 +231,15 @@ export default function Tasks(props: any) {
 	};
 
 	const listItemsByContext = () => {};
-
+	const mappedByPhase = sortedByPhase.map(listItemsByPhase);
+	const mappedByContext = sortedByContext.map(listItemsByContext);
 	return (
 		<>
 			{viewType === "list" && (
 				<ul>
 					{/* TODO: (add to setting for phase sortby data) */}
-					{!context && phase && sortedByPhase.map(listItemsByPhase)}
-					{context && !phase && sortedByContext.map(listItemsByContext)}
+					{!context && phase && mappedByPhase}
+					{context && !phase && mappedByContext}
 				</ul>
 			)}
 			{isCalendar && <div>Calendar</div>}

@@ -12,7 +12,7 @@ interface TaskDetails {
 }
 
 export default function TaskDetails(props: any) {
-	const { phase, enableAutoFocus, selectedTaskId } = props;
+	const { phase, selectedTaskId } = props;
 	const [taskDetails, setTaskDetails] = useState<TaskDetails | null>(null);
 
 	useEffect(() => {
@@ -25,7 +25,7 @@ export default function TaskDetails(props: any) {
 			}
 		};
 		getTaskDetails();
-	}, [selectedTaskId]);
+	}, []);
 
 	const handleChange = (
 		e: React.ChangeEvent<
@@ -46,63 +46,14 @@ export default function TaskDetails(props: any) {
 	};
 
 	const taskDetailsHTML = (
-		<div className="flex flex-col pt-2 space-y-2">
-			<div className="flex space-x-2 text-black">
-				<select
-					className="p-1 rounded-sm"
-					name="context"
-					onChange={handleChange}
-					value={taskDetails?.context}
-				>
-					<option>@office</option>
-					<option>@home</option>
-					<option>@computer</option>
-					<option>@agenda</option>
-					<option>@errands</option>
-					<option>@read/review</option>
-					<option>@telephone</option>
-					<option>@runaway</option>
-					<option>projects</option>
-					<option>aors</option>
-					<option>objects</option>
-					<option>goals</option>
-					<option>life</option>
-					<option>reference</option>
-					<option>someday</option>
-				</select>
-				<select
-					className="p-1 rounded-sm"
-					name="time"
-					onChange={handleChange}
-					value={taskDetails?.time}
-				>
-					<option>~30m</option>
-					<option>~1h</option>
-					<option>~2h</option>
-				</select>
-				<select
-					className="p-1 rounded-sm"
-					name="energy"
-					onChange={handleChange}
-					value={taskDetails?.energy}
-				>
-					<option>#low</option>
-					<option>#med</option>
-					<option>#high</option>
-				</select>
-				<input
-					className="p-1 rounded-sm"
-					name="parentId"
-					onChange={handleChange}
-					value={taskDetails?.parentId}
-				/>
-			</div>
+		<div className="flex flex-col py-1 space-y-2">
 			<textarea
 				value={taskDetails?.description}
 				rows={10}
-				className="resize-none"
+				className="p-1 pl-2 text-gray-100 bg-green-900 rounded-sm resize-none"
 				name="description"
 				onChange={handleChange}
+				// TODO: (add text editor to here like tinymec)
 			/>
 		</div>
 	);
@@ -110,11 +61,11 @@ export default function TaskDetails(props: any) {
 	return (
 		<form className="flex flex-col grow" onSubmit={handleSubmit}>
 			<input
-				className="bg-transparent rounded-sm focus-within:bg-transparent focus-within:outline-none grow"
+				className="pl-2 bg-transparent rounded-sm focus-within:bg-transparent focus-within:outline-none grow"
 				value={taskDetails?.title}
 				name="title"
 				onChange={handleChange}
-				autoFocus={enableAutoFocus}
+				autoFocus
 			/>
 
 			{phase === "organize" && taskDetailsHTML}

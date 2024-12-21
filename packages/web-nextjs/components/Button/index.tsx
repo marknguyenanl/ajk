@@ -4,13 +4,18 @@ import "./index.css";
 interface ButtonProps {
 	children: React.ReactNode;
 	onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
+	className?: string;
 }
 
-const Button: React.FC<ButtonProps> = ({ children, onClick }) => {
+const Button: React.FC<ButtonProps> = ({
+	children,
+	onClick,
+	className,
+}: ButtonProps) => {
 	return (
 		<>
 			<button
-				className="whitespace-nowrap btn btn-focus btn-hover btn-active"
+				className={`whitespace-nowrap btn btn-focus btn-hover btn-active ${className}`}
 				onClick={onClick}
 			>
 				{children}

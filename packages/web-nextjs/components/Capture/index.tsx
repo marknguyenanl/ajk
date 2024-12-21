@@ -3,11 +3,12 @@ import Button from "../Button";
 import { AddItem } from "./AddItem";
 import Tasks from "../Tasks";
 import { convertTask } from "@/composables/crudTask";
+import { useHandleTaskPhase } from "@/hooks/useHandleTaskPhase";
 
 export default function Capture(props: any) {
 	const {
 		tasks,
-		phase,
+		namespace,
 		setPhase,
 		selectedTaskId,
 		setSelectedTaskId,
@@ -22,19 +23,7 @@ export default function Capture(props: any) {
 		},
 		[setIsAddItem],
 	);
-	const handleTaskPhase = useCallback(
-		(taskId: any, phase: string, context: string) => {
-			return () => {
-				console.log(
-					"put to change phase to process then call component process instead of capture",
-				);
-				convertTask(taskId, phase, context);
-				setPhase(phase);
-			};
-			// TODO: (useCallback here)
-		},
-		[setPhase],
-	);
+	const handleTaskPhase = useHandleTaskPhase(convertTask, setPhase);
 
 	return (
 		<>
@@ -44,17 +33,25 @@ export default function Capture(props: any) {
 						className={`ml-auto space-x-4 w-60 flex  ${isAddItem ? "hidden" : ""}`}
 					>
 						<Button onClick={handleAddButton(true)}>Add Task</Button>
-						<Button onClick={handleTaskPhase(selectedTaskId, "process", "")}>
+						<Button
+							onClick={() => handleTaskPhase(selectedTaskId, "process", "")}
+						>
 							Process Task
 						</Button>
 					</div>
 
-					{isAddItem && <AddItem {...{ phase, handleAddButton }} />}
+					{isAddItem && <AddItem {...{ namespace, handleAddButton }} />}
 				</div>
 
 				<Tasks
 					viewType="list"
-					{...{ phase, tasks, selectedTaskId, setSelectedTaskId, context }}
+					{...{
+						namespace,
+						tasks,
+						selectedTaskId,
+						setSelectedTaskId,
+						context,
+					}}
 				/>
 			</div>
 		</>

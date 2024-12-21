@@ -35,5 +35,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-# TODO:
-<!-- TODO: (enable AI for this project, work in our own db) -->
+# TODO
+
+- [ ] enable AI for this project, work in our own db
+- [ ] after click this button it will show addTask form as modal
+- [ ] while toggle is process, brainstorm, organize, then disable button, engage, calendar to trash
+- [ ] if isWizzard false then disable Button 2. 3. 4.
+- [ ] when isWizzard if a state of each phase is done then move to next phase

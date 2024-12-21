@@ -4,14 +4,8 @@ import Tasks from "../Tasks";
 import { convertTask as convertTask } from "@/composables/crudTask";
 
 export default function Organize(props: any) {
-	const {
-		tasks,
-		phase,
-		setPhase,
-		selectedTaskId,
-		setSelectedTaskId,
-		context,
-	} = props;
+	const { tasks, phase, setPhase, selectedTaskId, setSelectedTaskId, context } =
+		props;
 	const handleTaskPhase = useCallback(
 		(taskId: any, phase: string, context: string) => {
 			return () => {
@@ -31,6 +25,9 @@ export default function Organize(props: any) {
 			<div className="flex-col space-y-4">
 				<div className="flex-col h-10">
 					<div className={`ml-auto space-x-4 w-96 flex`}>
+						<Button onClick={handleTaskPhase(selectedTaskId, "capture", "")}>
+							Revert to Capture
+						</Button>
 						<Button
 							onClick={handleTaskPhase(selectedTaskId, "engage", "@runaway")}
 						>
