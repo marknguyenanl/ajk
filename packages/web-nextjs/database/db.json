@@ -1,56 +1,11 @@
 {
   "namespace": {
-    "item": {
-      "item": {
-        "item": {
-          "item": {
-            "item": {
-              "item": {
-                "item": {
-                  "item": {
-                    "item": {
-                      "item": {
-                        "item": {
-                          "item": {
-                            "selectedTaskId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-                            "namespaceState": "Process",
-                            "updatedAt": "1734807760919"
-                          },
-                          "namespaceState": "Capture",
-                          "updatedAt": "1734808440873"
-                        },
-                        "namespaceState": "Process",
-                        "updatedAt": "1734808445224"
-                      },
-                      "namespaceState": "Brainstorm",
-                      "updatedAt": "1734808460639"
-                    },
-                    "namespaceState": "Process",
-                    "updatedAt": "1734808514986"
-                  },
-                  "namespaceState": "Brainstorm",
-                  "updatedAt": "1734808516754"
-                },
-                "namespaceState": "Organize",
-                "updatedAt": "1734808524193"
-              },
-              "namespaceState": "Process",
-              "updatedAt": "1734808526297"
-            },
-            "namespaceState": "Brainstorm",
-            "updatedAt": "1734808527114"
-          },
-          "namespaceState": "Engage",
-          "updatedAt": "1734808530577"
-        },
-        "namespaceState": "Process",
-        "updatedAt": "1734808555032"
-      },
-      "namespaceState": "Brainstorm",
-      "updatedAt": "1734808559095"
-    },
-    "namespaceState": "Organize",
-    "updatedAt": "1734808564143"
+    "namespaceState": "Clarify",
+    "selectedTaskId": "ec9d6ab6-3513-4c57-b1bb-28abd7e45c06",
+    "selectedLayer": "Projects",
+    "sortedBy": "createdAt",
+    "order": "desc",
+    "updatedAt": "1734994153437"
   },
   "viewType": [
     {
@@ -80,12 +35,12 @@
     },
     {
       "id": "4",
-      "title": "Objects",
+      "title": "Goals",
       "alias": "30,000ft"
     },
     {
       "id": "5",
-      "title": "Goals",
+      "title": "Vision",
       "alias": "40,000ft"
     },
     {
@@ -113,79 +68,43 @@
     {
       "id": "1",
       "title": "@office",
-      "sortedBy": "created",
+      "sortedBy": "createdAt",
       "asc": false
     },
     {
       "id": "2",
       "title": "@home",
-      "sortedBy": "created",
+      "sortedBy": "createdAt",
       "asc": false
     },
     {
       "id": "3",
       "title": "@computer",
-      "sortedBy": "created",
+      "sortedBy": "createdAt",
       "asc": false
     },
     {
       "id": "4",
       "title": "@errands",
-      "sortedBy": "created",
+      "sortedBy": "createdAt",
       "asc": false
     },
     {
       "id": "5",
       "title": "@telephone",
-      "sortedBy": "created",
+      "sortedBy": "createdAt",
       "asc": false
     },
     {
       "id": "6",
       "title": "@agenda",
-      "sortedBy": "created",
+      "sortedBy": "createdAt",
       "asc": false
     },
     {
       "id": "7",
       "title": "@read/review",
-      "sortedBy": "created",
-      "asc": false
-    },
-    {
-      "id": "8",
-      "title": "@runaway",
-      "sortedBy": "created",
-      "asc": false
-    },
-    {
-      "id": "9",
-      "title": "projects",
-      "sortedBy": "created",
-      "asc": false
-    },
-    {
-      "id": "10",
-      "title": "aors",
-      "sortedBy": "created",
-      "asc": false
-    },
-    {
-      "id": "11",
-      "title": "objects",
-      "sortedBy": "created",
-      "asc": false
-    },
-    {
-      "id": "12",
-      "title": "goals",
-      "sortedBy": "created",
-      "asc": false
-    },
-    {
-      "id": "13",
-      "title": "life",
-      "sortedBy": "created",
+      "sortedBy": "createdAt",
       "asc": false
     }
   ],
@@ -193,814 +112,1147 @@
     {
       "id": "1",
       "title": "Capture",
-      "sortedBy": "created",
+      "sortedBy": "createdAt",
       "asc": false
     },
     {
       "id": "2",
-      "title": "Process",
-      "sortedBy": "updated",
+      "title": "Clarify",
+      "sortedBy": "createdAt",
       "asc": false
     },
     {
       "id": "3",
-      "title": "Brainstorm",
-      "sortedBy": "updated",
+      "title": "Organize",
+      "sortedBy": "createdAt",
       "asc": false
     },
     {
       "id": "4",
-      "title": "Organize",
+      "title": "Review",
       "sortedBy": "order",
       "asc": false
     },
     {
       "id": "5",
       "title": "Engage",
-      "sortedBy": "updated",
+      "sortedBy": "createdAt",
       "asc": false
     }
   ],
   "tasks": [
     {
-      "id": "482f1ded-453f-429f-9b36-6a8f112b6656",
-      "phase": "Process",
-      "title": "la",
-      "parentId": "",
-      "layer": "Projects",
+      "id": "3bcdbaf0-89c5-462f-8538-61dd3393a6d0",
+      "title": ";akjdf",
       "description": "",
+      "parentId": "",
+      "phase": "Capture",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T15:27:06.225Z",
-      "updated": "2024-12-18T21:57:45.628Z"
+      "createdAt": "1734969300677",
+      "updatedAt": "1734969300677",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "c302cc4d-8e24-4837-89fa-fc0392ad76b1",
-      "phase": "Process",
-      "title": "check this out",
-      "parentId": "",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T15:50:04.149Z",
-      "updated": "2024-12-17T15:50:04.149Z"
-    },
-    {
-      "id": "91c923b9-03b7-4838-8e6b-cdadb3e0383a",
-      "phase": "Brainstorm",
-      "title": "hey",
-      "parentId": "",
-      "layer": "",
-      "description": "",
-      "context": "projects",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T16:04:41.489Z",
-      "updated": "2024-12-18T21:53:25.788Z"
-    },
-    {
-      "id": "ab1db123-129c-41ab-a6d7-86176dc2c941",
-      "phase": "Engage",
+      "id": "1eb4d1c7-623b-43a0-b608-63be0ad367c5",
       "title": "ok",
+      "description": "",
       "parentId": "",
-      "layer": "",
-      "description": "",
-      "context": "@runaway",
+      "phase": "Capture",
+      "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T17:00:19.214Z",
-      "updated": "2024-12-17T21:05:56.990Z"
+      "createdAt": "1734969300677",
+      "updatedAt": "1734969300677",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "10abaa08-ee84-4ec7-9926-6e23dd6cc252",
-      "phase": "Engage",
-      "title": "like new",
+      "id": "e6d06e0c-4530-4654-84c5-12bc9dbefcac",
+      "title": "df",
+      "description": "",
       "parentId": "",
-      "layer": "",
-      "description": "",
-      "context": "@runaway",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T19:06:38.795Z",
-      "updated": "2024-12-18T04:03:55.577Z"
-    },
-    {
-      "id": "516bdbea-89ed-43b9-abbf-dcb32cef3724",
-      "phase": "Process",
-      "title": "adskfj",
-      "parent": "",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T21:31:16.882Z",
-      "updated": "2024-12-18T22:12:10.401Z"
-    },
-    {
-      "id": "5b1b20fa-93d3-4dcd-a532-4fc0b2879fb1",
-      "phase": "Engage",
-      "title": "adskfkg",
-      "parent": "",
-      "layer": "",
-      "description": "",
-      "context": "@runaway",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T21:31:18.896Z",
-      "updated": "2024-12-18T04:01:41.931Z"
-    },
-    {
-      "id": "48bdb417-15fc-4555-8f6e-407e6ac61b43",
-      "phase": "trash",
-      "title": "fff",
-      "parent": "",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T21:31:19.832Z",
-      "updated": "2024-12-17T21:52:53.213Z"
-    },
-    {
-      "id": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
       "phase": "Capture",
-      "title": "okla",
-      "parent": "",
-      "layer": "",
-      "description": "",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-17T22:41:36.294Z",
-      "updated": "2024-12-18T22:12:06.561Z"
+      "createdAt": "1734969300677",
+      "updatedAt": "1734969300677",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "c711a053-a8a6-44af-8fca-c2bc39a645ea",
-      "phase": "Organize",
-      "title": "this",
-      "parentId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-      "layer": "",
+      "id": "a58b60a8-96d9-42aa-935e-22a274c5c5d4",
+      "title": "yes",
       "description": "",
-      "context": "@runaway",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T08:00:01.370Z",
-      "updated": "2024-12-18T21:54:42.680Z"
-    },
-    {
-      "id": "ca619afb-499d-4bb4-9e7d-f77c10c21779",
-      "phase": "Brainstorm",
-      "title": "new",
-      "parentId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T08:00:02.599Z",
-      "updated": "2024-12-18T08:00:02.599Z"
-    },
-    {
-      "id": "1d1f2856-ba08-45cd-b097-6604d2fbcbd2",
-      "phase": "Brainstorm",
-      "title": "be",
-      "parentId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T08:00:05.886Z",
-      "updated": "2024-12-18T08:00:05.886Z"
-    },
-    {
-      "id": "77ffa6b0-ce7d-402a-a0a4-8ccb37d5ad42",
-      "phase": "Brainstorm",
-      "title": "is",
-      "parentId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T08:00:07.542Z",
-      "updated": "2024-12-18T08:00:07.542Z"
-    },
-    {
-      "id": "d64c50b8-84ef-452c-a5ce-712e67682f36",
-      "phase": "Brainstorm",
-      "title": "coming",
-      "parentId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T08:00:09.644Z",
-      "updated": "2024-12-18T08:00:09.644Z"
-    },
-    {
-      "id": "3e2f7018-915d-4424-bec8-ce728bc60d99",
-      "phase": "Brainstorm",
-      "title": "to ",
-      "parentId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T08:00:11.269Z",
-      "updated": "2024-12-18T08:00:11.269Z"
-    },
-    {
-      "id": "47899cef-47a3-4d9f-b226-00c23de13a09",
-      "phase": "Brainstorm",
-      "title": "town",
-      "parentId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T08:00:12.765Z",
-      "updated": "2024-12-18T08:00:12.765Z"
-    },
-    {
-      "id": "7f26327a-acf8-4ed7-830f-61dac7611400",
-      "phase": "Brainstorm",
-      "title": "next",
-      "parentId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T08:00:20.132Z",
-      "updated": "2024-12-18T08:00:20.132Z"
-    },
-    {
-      "id": "514b028b-de7b-42c6-83cf-a71c250d92fc",
-      "phase": "Brainstorm",
-      "title": "okla",
-      "parentId": "b26aa901-f54b-4c60-9ac5-4476205d15c1",
-      "layer": "",
-      "description": "",
-      "context": "",
-      "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
-      "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T08:00:21.926Z",
-      "updated": "2024-12-18T08:00:21.926Z"
-    },
-    {
-      "id": "0a1b166a-1821-4343-bfae-41555a6cf3ed",
+      "parentId": "",
       "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734969300677",
+      "updatedAt": "1734969300677",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "85f1b45c-06bd-4171-b967-008d00283d1c",
       "title": "hey",
-      "parentId": "",
-      "layer": "",
       "description": "",
+      "parentId": "",
+      "phase": "Capture",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T22:12:26.711Z",
-      "updated": "2024-12-18T22:12:26.711Z"
+      "createdAt": "1734969300677",
+      "updatedAt": "1734969300677",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "676e1407-bf9b-4502-97e3-de140c8a1c47",
-      "phase": "process",
-      "title": "ke",
-      "parentId": "",
-      "layer": "",
+      "id": "f4df2393-cc78-4018-be63-0d9eff0226e0",
+      "title": "lala",
       "description": "",
+      "parentId": "",
+      "phase": "Capture",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-18T22:12:49.595Z",
-      "updated": "2024-12-19T07:19:58.612Z"
+      "createdAt": "1734969300677",
+      "updatedAt": "1734969300677",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "3275646f-2e69-4634-929c-24b9ad63bb2f",
-      "phase": "capture",
-      "title": "aksjdf",
-      "parentId": "",
-      "layer": "",
+      "id": "94470898-4be7-4b42-9a66-aa1708ebba86",
+      "title": "ok",
       "description": "",
+      "parentId": "",
+      "phase": "Capture",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-19T04:29:59.588Z",
-      "updated": "2024-12-19T04:29:59.588Z"
+      "createdAt": "1734969300677",
+      "updatedAt": "1734969300677",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "b7be3124-43e1-46c3-8899-24f5f8426334",
-      "phase": "capture",
-      "title": "akdsjf",
-      "parentId": "",
-      "layer": "",
+      "id": "6e99aa51-3378-4a7f-83f2-9e793a307d1d",
+      "title": "cool",
       "description": "",
+      "parentId": "",
+      "phase": "Capture",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-19T04:30:00.603Z",
-      "updated": "2024-12-19T04:30:00.603Z"
+      "createdAt": "1734969300677",
+      "updatedAt": "1734969300677",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "456a4704-ea6a-4af3-9c5d-c50c591c0395",
-      "phase": "capture",
-      "title": "kfgj",
-      "parentId": "",
-      "layer": "",
+      "id": "e7b35e7d-c7a9-45a6-89ad-3cf5d7f55005",
+      "title": "df",
       "description": "",
+      "parentId": "",
+      "phase": "Capture",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-19T04:30:01.427Z",
-      "updated": "2024-12-19T04:30:01.427Z"
+      "createdAt": "1734970799043",
+      "updatedAt": "1734970799043",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "25c8f34b-7ce5-4025-a68e-9a0ed25c5087",
-      "phase": "capture",
-      "title": "kasdjf",
-      "parentId": "",
-      "layer": "",
+      "id": "6d3401eb-7558-4591-9ee4-6d4bed00c84d",
+      "title": "ok",
       "description": "",
+      "parentId": "",
+      "phase": "Capture",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-19T04:30:02.315Z",
-      "updated": "2024-12-19T04:30:02.315Z"
+      "createdAt": "1734970799043",
+      "updatedAt": "1734970799043",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "130a8ef1-6558-4664-b3e8-0f65d56d94ab",
-      "phase": "capture",
-      "title": "askdfj",
-      "parentId": "",
-      "layer": "",
+      "id": "a92d4dc2-49fe-4db1-98bc-21af02bf0c0a",
+      "title": "aha",
       "description": "",
+      "parentId": "",
+      "phase": "Capture",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-19T04:30:11.179Z",
-      "updated": "2024-12-19T04:30:11.179Z"
+      "createdAt": "1734970799043",
+      "updatedAt": "1734970799043",
+      "isCompleted": false,
+      "isCalendar": false
     },
     {
-      "id": "bfc7c101-878f-4ff8-92d1-1e40c0357d48",
-      "phase": "capture",
-      "title": "dkfj",
-      "parentId": "",
-      "layer": "",
+      "id": "01604914-df91-444f-8fc5-8876d3842779",
+      "title": "yes",
       "description": "",
+      "parentId": "",
+      "phase": "Capture",
       "context": "",
       "time": "",
-      "enegery": "",
-      "completed": "",
-      "isCalendar": false,
+      "energy": "",
       "order": 1,
-      "calendar": {
-        "startTime": "date",
-        "endTime": "date",
-        "repeated": {
-          "enable": true,
-          "frequency": "1",
-          "day": "",
-          "month": "",
-          "year": ""
-        },
-        "calendarRef": [
-          {}
-        ]
-      },
-      "created": "2024-12-19T04:30:12.970Z",
-      "updated": "2024-12-19T04:30:12.970Z"
+      "createdAt": "1734970847561",
+      "updatedAt": "1734970847561",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "a7b3d6ef-66d2-497e-a559-eb41028556c2",
+      "title": "ok2",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734970847561",
+      "updatedAt": "1734970847561",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "7282d3ed-b91f-4f85-9a99-44bb10237a39",
+      "title": "hey",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734970847561",
+      "updatedAt": "1734970902836",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "695e629e-3371-4b4f-bf9b-7fc575279d0c",
+      "title": "f",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734970847561",
+      "updatedAt": "1734970905172",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "d77f49bf-ab54-4207-bc23-1cb634056727",
+      "title": "lala",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734970847561",
+      "updatedAt": "1734970906556",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "5ddf88b1-efa6-4241-a92d-2d747bf8637a",
+      "title": "heyd",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734970847561",
+      "updatedAt": "1734970961880",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "57a545ca-b8d2-4c37-9493-51f02e3270e6",
+      "title": "you",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734970847561",
+      "updatedAt": "1734971029403",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "80d06c54-8a48-459b-bc11-db181b0d1b8c",
+      "title": "okd",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734970847561",
+      "updatedAt": "1734971031315",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "ec9d6ab6-3513-4c57-b1bb-28abd7e45c06",
+      "title": "new",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734981965769",
+      "updatedAt": "1734981972030",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "b607d101-7276-4089-a02a-d35591b2db8f",
+      "title": "dflafdfggfdfd",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734981965769",
+      "updatedAt": "1734982064512",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "7430f5ad-489a-4e97-958f-c0e11a34310e",
+      "title": "hahadfksadfafgkljkdfjhgkjfhddddddqer",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734982670023",
+      "updatedAt": "1734982686021",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "3ea0f79f-4f95-4a52-b196-5c7c6dde1e1b",
+      "title": "dfddgfgafggdfwertfgfgadgh",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734989933526",
+      "updatedAt": "1734990021244",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "bf0dd91e-3544-45a5-a2ee-a50a99a1f830",
+      "title": "newd",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734990027762",
+      "updatedAt": "1734990034658",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "8092f09c-3e5d-47d7-a849-93d6a5987714",
+      "title": "nnn",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734990648399",
+      "updatedAt": "1734990733107",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "86c74790-f1f4-4f76-9f84-bcd45ae1ce3b",
+      "title": "new",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734997237875",
+      "updatedAt": "1734997246225",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "205cff13-b7a7-4f1f-8b4c-ae3bdae4a57c",
+      "title": "hey",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1734997237875",
+      "updatedAt": "1734997247721",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "6a13ffd4-f75e-4b71-b536-d057c002dda9",
+      "title": "kdfjddfrfasdfgdfddfdkdkdffga",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735012843442",
+      "updatedAt": "1735012947507",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "b3efb49e-11f7-42ba-b477-51a633d9a32f",
+      "title": "1f",
+      "description": "",
+      "parentId": "",
+      "phase": "Clarify",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735014318132",
+      "updatedAt": "1735016248621",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "d2f2bfee-56be-4c42-8be7-2e35740c1dc9",
+      "title": "dfdffffdfdfaddddassdf14",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735014318132",
+      "updatedAt": "1735023316994",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "296c2b63-86cd-46dc-a176-86f4f6544ed0",
+      "title": "df",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735029209955",
+      "updatedAt": "1735029214793",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "6acde718-a125-4b8d-8ad2-7936fa8a5e76",
+      "title": "asdf",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735029209955",
+      "updatedAt": "1735029216190",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "f37dceb1-49a6-4fb8-8a54-6d14b22b5cfa",
+      "title": "dfadf",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735031410473",
+      "updatedAt": "1735031422784",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "24f4d038-a3d8-44f0-9f72-fe4048d75d17",
+      "title": "asdf",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735031410473",
+      "updatedAt": "1735031428095",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "ba3eebaa-e071-420e-98b2-a59822e672e8",
+      "title": "ddddd",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735031410473",
+      "updatedAt": "1735031431622",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "1ccfe837-f02b-4902-860c-cdb06ad1ad82",
+      "title": "df",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735031410473",
+      "updatedAt": "1735053653671",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "4fc06dcd-99eb-45c6-99f6-c0f90835f4ab",
+      "title": "a",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735031410473",
+      "updatedAt": "1735053656358",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "39cbb1e5-fe40-4752-9221-8e23fac87d2c",
+      "title": "111",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735031410473",
+      "updatedAt": "1735053658326",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "3341f8b8-471f-4d4d-a4cf-b70a433ada5c",
+      "title": "222",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "order": 1,
+      "createdAt": "1735031410473",
+      "updatedAt": "1735053664966",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "546d639f-721c-491d-9a4f-99c4681467de",
+      "title": "daf",
+      "phase": "Capture",
+      "updatedAt": "1735143914251"
+    },
+    {
+      "id": "1614e00f-5115-4cde-8668-c12c70890da7",
+      "title": "asd",
+      "phase": "Capture",
+      "updatedAt": "1735143915122"
+    },
+    {
+      "id": "e924c09c-c08f-41b6-8f22-a908b8a0e85d",
+      "title": "fgf",
+      "phase": "Capture",
+      "updatedAt": "1735143915802"
+    },
+    {
+      "id": "01161e93-2a9d-4fe2-99b7-28b793eb31b9",
+      "title": "new",
+      "phase": "Capture",
+      "updatedAt": "1735145242642"
+    },
+    {
+      "id": "a1652ec9-c701-4740-86e3-3a36b9690a8d",
+      "title": "d",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735158457479",
+      "updatedAt": "1735171346740",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "ce3cc5db-459e-4a75-9a9c-64bf722d2d85",
+      "title": "kjdf",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735158457479",
+      "updatedAt": "1735171349587",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "7442e111-de3e-4b7b-bc28-0effc27816b3",
+      "title": "ok",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735171484900",
+      "updatedAt": "1735171495968",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "7e3ab1ce-db56-446f-a33b-9a1d1caae1b2",
+      "title": "d",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735172040461",
+      "updatedAt": "1735172056434",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "d50839a6-bbf0-4a68-80bf-9e9c2888f29d",
+      "title": "dk",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735172996625",
+      "updatedAt": "1735173001393",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "fc7c32c4-25e7-4af0-9643-97861261afcc",
+      "title": "d",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735181739279",
+      "updatedAt": "1735181746613",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "47921b43-35a7-4f02-942c-9da6a4b9c9f1",
+      "title": "ddd",
+      "description": "",
+      "parentId": "",
+      "phase": "Clarify",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735190543870",
+      "updatedAt": "1735191422843",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "c6b48cbf-48c2-4bb3-a5d0-cc24f312cf5c",
+      "title": "df",
+      "description": "",
+      "parentId": "",
+      "phase": "Clarify",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735193051711",
+      "updatedAt": "1735193057431",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "1b841e78-4510-465f-8486-5292b34c9615",
+      "title": "1123",
+      "description": "",
+      "parentId": "",
+      "phase": "Clarify",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735193060519",
+      "updatedAt": "1735193064830",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "27af9ca9-c4a8-4b09-a451-a4b8d27e0960",
+      "title": "asdf",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735202668868",
+      "updatedAt": "1735203123744",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "6b06dae0-182a-4f85-b573-3a8e823e86dc",
+      "title": "alsdkfjkldsfj",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735203276144",
+      "updatedAt": "1735203902244",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "4429a5b1-76e0-41a1-a133-9ad210b36a4c",
+      "title": "",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735203276144",
+      "updatedAt": "1735203902939",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "4782cf85-886e-4e06-8ae5-4b4d6048a77f",
+      "title": "dsf",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735223258459",
+      "updatedAt": "1735223269016",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "06135fa4-e638-40e2-bbf2-2f2d908d327c",
+      "title": "hey",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735223315906",
+      "updatedAt": "1735226464519",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "a983aab5-c4b1-4baa-b794-d8132d3f4b82",
+      "title": "dkfjaksdfa",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735223315906",
+      "updatedAt": "1735228502726",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "4594b503-bf54-4909-8cc7-a8f2763eaf2f",
+      "title": "hidden button",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735223315906",
+      "updatedAt": "1735228524021",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "9830a0e8-542b-4320-a381-6105d3906dfb",
+      "title": "kdjf",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735228530504",
+      "updatedAt": "1735228545739",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "e2925a8a-05cb-48c8-b836-8d5aa3cf5616",
+      "title": "okhey",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735228530504",
+      "updatedAt": "1735228549490",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "9ec01d13-3d86-4912-a2ea-8018aea36098",
+      "title": "dfd",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230032515",
+      "updatedAt": "1735230099772",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "e51404e5-af9c-405a-a786-6afebec3b139",
+      "title": "aha",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Projects",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230394930",
+      "updatedAt": "1735230407565",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "8b9c4552-7608-492a-9edc-4895904154aa",
+      "title": "asdfdfasdf",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Projects",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230394930",
+      "updatedAt": "1735230416109",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "78ca5511-90b8-4307-94ae-11b05bfcefdb",
+      "title": "asdf",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Projects",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230394930",
+      "updatedAt": "1735230444403",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "18e7978f-4d2c-42c5-80c0-9832a85df509",
+      "title": "afg",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Projects",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230394930",
+      "updatedAt": "1735230446563",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "3570bf24-2917-4710-ac9b-2eb81f9d7129",
+      "title": "new",
+      "description": "",
+      "parentId": "",
+      "phase": "Organize",
+      "layer": "Reference",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230394930",
+      "updatedAt": "1735230479360",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "a22eec41-698a-472c-9d92-62cde3276334",
+      "title": "here",
+      "description": "",
+      "parentId": "",
+      "phase": "Organize",
+      "layer": "Reference",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230495817",
+      "updatedAt": "1735230501289",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "e67897be-a167-4ce3-87c3-21d89710db38",
+      "title": "then",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Projects",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230548418",
+      "updatedAt": "1735230555221",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "ea560db9-bee0-4998-84d9-bbdbf6f17562",
+      "title": "hehe",
+      "description": "",
+      "parentId": "",
+      "phase": "Capture",
+      "layer": "Projects",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230558292",
+      "updatedAt": "1735230663908",
+      "isCompleted": false,
+      "isCalendar": false
+    },
+    {
+      "id": "c2290617-a1c2-4b6f-980f-025ac80225b4",
+      "title": "11",
+      "description": "",
+      "parentId": "",
+      "phase": "Organize",
+      "layer": "Runaway",
+      "sortBy": "createdAt",
+      "order": "asc",
+      "context": "",
+      "time": "",
+      "energy": "",
+      "sequence": 1,
+      "createdAt": "1735230716162",
+      "updatedAt": "1735230729640",
+      "isCompleted": false,
+      "isCalendar": false
     }
   ]
 }

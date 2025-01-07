@@ -1,8 +1,20 @@
 import ViewZoneNav from "@/components/ViewZoneNav";
+import ViewZoneTasks from "@/components/ViewZoneTasks";
 import ViewZoneSidebar from "@/components/ViewZoneSidebar";
-import ViewZoneTasksList from "@/components/ViewZoneTasksList";
+import useTasksApiUpdateToRedux from "@/lib/hooks/useTasksApiUpdateToRedux";
+import useNameSpaceApiUpdateToRedux from "@/lib/hooks/useNameSpaceApiUpdateToRedux";
+import usePhasesApiUpdateToRedux from "@/lib/hooks/usePhasesApiUpdateToRedux";
+import useLayersApiUpdateToRedux from "@/lib/hooks/useLayersApiUpdateToRedux";
+import ViewZoneSideTasks from "@/components/ViewZoneSideTasks";
+import { useState } from "react";
 
 export default function Dashboard() {
+	useTasksApiUpdateToRedux();
+	useNameSpaceApiUpdateToRedux();
+	usePhasesApiUpdateToRedux();
+	useLayersApiUpdateToRedux();
+	const [showSideTasks, setShowSideTasks] = useState("1");
+
 	return (
 		<div id="view-main" className="flex flex-col text-white bg-green-950">
 			<div id="view-header">
@@ -17,8 +29,16 @@ export default function Dashboard() {
 						id="view-zone-1"
 						className="overflow-y-scroll px-4 grow scroll-smooth"
 					>
-						<ViewZoneTasksList />
+						<ViewZoneTasks />
 					</div>
+					{showSideTasks && (
+						<div
+							id="view-zone-2"
+							className="overflow-y-scroll px-4 w-1/6 scroll-smooth"
+						>
+							<ViewZoneSideTasks />
+						</div>
+					)}
 
 					<div
 						id="view-zone-3"

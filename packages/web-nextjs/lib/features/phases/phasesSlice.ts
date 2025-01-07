@@ -1,47 +1,50 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "@/lib/store";
-import { v4 as uuidv4 } from "uuid";
+import { v4 } from "uuid";
 
-export interface Phase {
+export interface PhaseProps {
 	id: string;
 	title: string;
 	sortBy: string;
-	asc: boolean;
+	order: string;
 	createdAt: string;
 	updatedAt: string;
 }
 
 export const defaultPhase = {
-	id: uuidv4(),
+	id: v4(),
 	title: "",
-	sortBy: "updatedTime",
-	asc: false,
+	sortBy: "createdAt",
+	order: "desc",
 	createdAt: "",
 	updatedAt: "",
 };
 
-interface Phases {
-	items: Phase[];
+export interface PhasesProps {
+	items: PhaseProps[];
 }
-const initialState: Phases = {
+export const defaultPhases: PhasesProps = {
 	items: [],
 };
 export const phasesSlice = createSlice({
 	name: "phases",
-	initialState,
+	initialState: defaultPhases,
 	reducers: {
-		addPhase: (state, action: PayloadAction<Phase>) => {
+		addPhaseSlice: (state, action: PayloadAction<PhaseProps>) => {
 			const { title } = action.payload;
-			const phase: Phase = defaultPhase;
+			const phase: PhaseProps = defaultPhase;
 			const createdAt = new Date().toLocaleTimeString();
 			const updatedAt = new Date().toLocaleTimeString();
 
 			state.items.push({ ...phase, title, createdAt, updatedAt });
 		},
+		deletePhaseSlice: (state) => {
+			return defaultPhases;
+		},
 	},
 });
 
-export const { addPhase } = phasesSlice.actions;
-export const selectPhases = (state: RootState) => state.phases.items;
+export const { addPhaseSlice, deletePhaseSlice } = phasesSlice.actions;
+export const selectPhasesSlice = (state: RootState) => state.phases.items;
 export default phasesSlice.reducer;

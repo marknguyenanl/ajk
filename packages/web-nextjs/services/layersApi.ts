@@ -1,15 +1,15 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { Layer } from "@/lib/features/layers/layersSlice";
+import { LayerProps } from "@/lib/features/layers/layersSlice";
 
 // Define a service using a base URL and expected endpoints
-export const ajkApi = createApi({
-	reducerPath: "tasksApi",
+export const layersApi = createApi({
+	reducerPath: "layersApi",
 	baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3000/" }),
 	endpoints: (builder) => ({
-		getLayers: builder.query<Layer[], void>({
+		getLayers: builder.query<LayerProps[], void>({
 			query: () => "layers",
 		}),
-		getLayerById: builder.query<Layer, string>({
+		getLayerById: builder.query<LayerProps, string>({
 			query: (id) => `layers/${id}`,
 		}),
 	}),

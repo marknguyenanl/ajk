@@ -1,17 +1,17 @@
 import {
-	addPhase,
+	addPhaseSlice,
 	defaultPhase,
-	Phase,
+	PhaseProps,
 } from "@/lib/features/phases/phasesSlice";
-import { useAppDispatch } from "@/lib/hooks";
-import { useGetPhasesQuery } from "@/services/api";
+import { useAppDispatch } from "@/lib/hooks/redux";
+import { useGetPhasesQuery } from "@/services/phasesApi";
 
 export default function Phases() {
 	const dispatch = useAppDispatch();
 	const { data: phases = [], error, isLoading } = useGetPhasesQuery();
 	const handlePhase = () => {
-		const newPhase: Phase = defaultPhase;
-		dispatch(addPhase({ ...newPhase, title: "nameaa" }));
+		const newPhase: PhaseProps = defaultPhase;
+		dispatch(addPhaseSlice({ ...newPhase, title: "nameaa" }));
 	};
 	if (isLoading) return <div>Loading...</div>;
 	if (error) console.log(error);

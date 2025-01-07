@@ -2,12 +2,8 @@
   @apply p-2 border rounded-sm w-full border-green-800;
 }
 
-.btn-active {
-  @apply active:bg-red-200 active:text-black;
-}
-
 .btn-disabled {
-  @apply bg-transparent text-transparent;
+  @apply bg-gray-800 text-gray-500;
 }
 
 .btn-hover {
@@ -16,4 +12,7 @@
 
 .btn-focus {
   @apply focus:bg-red-200 focus:text-black;
+}
+.btn-active {
+  @apply bg-red-200 text-black;
 }

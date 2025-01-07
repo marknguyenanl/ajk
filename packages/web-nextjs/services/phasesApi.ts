@@ -1,15 +1,15 @@
+import { PhaseProps } from "@/lib/features/phases/phasesSlice";
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { Phase } from "@/lib/features/phases/phasesSlice";
 
 // Define a service using a base URL and expected endpoints
-export const ajkApi = createApi({
+export const phasesApi = createApi({
 	reducerPath: "phasesApi",
 	baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:3000/" }),
 	endpoints: (builder) => ({
-		getPhases: builder.query<Phase[], void>({
+		getPhases: builder.query<PhaseProps[], void>({
 			query: () => "phases",
 		}),
-		getPhaseById: builder.query<Phase, string>({
+		getPhaseById: builder.query<PhaseProps, string>({
 			query: (id) => `phases/${id}`,
 		}),
 	}),

@@ -1,24 +1,37 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "@/lib/store";
-export interface Context {
+import { v4 } from "uuid";
+export interface ContextProps {
 	id: string;
 	title: string;
 	sortBy: string;
-	asc: boolean;
+	order: string;
+	createdAt: string;
+	updatedAt: string;
 }
 
-export interface Contexts {
-	items: Context[];
+export interface ContextsProps {
+	items: ContextProps[];
 }
-export const initializeContexts: Contexts = {
+
+export const defaultContext: ContextProps = {
+	id: v4(),
+	title: "",
+	sortBy: "updatedAt",
+	order: "asc",
+	createdAt: Date.now().toString(),
+	updatedAt: Date.now().toString(),
+};
+
+export const initializeContexts: ContextsProps = {
 	items: [],
 };
 export const contextsSlice = createSlice({
 	name: "contexts",
 	initialState: initializeContexts,
 	reducers: {
-		addContext: (state, action: PayloadAction<Context>) => {
+		addContext: (state, action: PayloadAction<ContextProps>) => {
 			state.items.push(action.payload);
 		},
 	},

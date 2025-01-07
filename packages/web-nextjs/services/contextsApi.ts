@@ -10,7 +10,7 @@ export const contextsApi = createApi({
 			query: () => "contexts",
 		}),
 		getContextById: builder.query<Context, string>({
-			query: (id) => `tacontextssks/${id}`,
+			query: (id) => `contexts/${id}`,
 		}),
 	}),
 });

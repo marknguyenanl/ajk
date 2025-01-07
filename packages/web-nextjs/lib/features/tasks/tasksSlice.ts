@@ -1,54 +1,90 @@
-import { createSlice } from "@reduxjs/toolkit";
-import type { PayloadAction } from "@reduxjs/toolkit";
-import type { RootState } from "@/lib/store";
+import {
+	createEntityAdapter,
+	createSelector,
+	createSlice,
+	current,
+} from "@reduxjs/toolkit";
+import { v4 } from "uuid";
 
-export interface Task {
-	id: string;
-	title: string;
-	description: string;
-	parentId: string;
-	phase: string;
-	context: string;
-	time: string;
-	energy: string;
-	order: number;
-	createdAt: string;
-	updatedAt: string;
-	isCompleted: boolean;
-	isCalendar: boolean;
+export interface TaskProps {
+	id?: string;
+	title?: string;
+	description?: string;
+	parentId?: string;
+	phase?: string;
+	layer?: string;
+	sortBy?: string;
+	order?: string;
+	context?: string;
+	time?: string;
+	energy?: string;
+	sequence?: number;
+	createdAt?: string;
+	updatedAt?: string;
+	isCompleted?: boolean;
+	isCalendar?: boolean;
 }
-export const defaultTask = {
-	id: "dkfj",
+
+export const defaultTasks: TasksProps = {
+	items: [],
+};
+
+export const defaultTask: TaskProps = {
+	id: v4(),
 	title: "",
 	description: "",
 	parentId: "",
-	phase: "",
+	phase: "Capture",
+	layer: "",
+	sortBy: "createdAt",
+	order: "asc",
 	context: "",
 	time: "",
 	energy: "",
-	order: 1,
-	createdAt: "",
-	updatedAt: "",
+	sequence: 1,
+	createdAt: Date.now().toString(),
+	updatedAt: Date.now().toString(),
 	isCompleted: false,
 	isCalendar: false,
 };
 
-interface Tasks {
-	items: Task[];
+export interface TasksProps {
+	items: TaskProps[];
 }
-export const initializeTasks: Tasks = {
-	items: [],
-};
+const tasksAdapter = createEntityAdapter({
+	sortComparer: (a: any, b: any) => Number(b.createdAt) - Number(a.createdAt),
+});
+
 export const tasksSlice = createSlice({
 	name: "tasks",
-	initialState: initializeTasks,
+	initialState: tasksAdapter.getInitialState(),
 	reducers: {
-		addTask: (state, action: PayloadAction<Task>) => {
-			state.items.push(action.payload);
+		addTaskSlice(state, action) {
+			tasksAdapter.addOne(state, action.payload);
+			console.log("current state of new task is: ", state);
+			console.log("current action payload content is: ", action.payload);
+		},
+
+		updateTaskSlice(state, action) {
+			tasksAdapter.upsertOne(state, action.payload);
+			console.log("debug here", state);
+		},
+		removeTaskSlice(state, action) {
+			tasksAdapter.removeOne(state, action.payload);
+		},
+		removeAllTasksSlice(state) {
+			tasksAdapter.removeAll(state);
 		},
 	},
 });
 
-export const { addTask } = tasksSlice.actions;
-export const selectTasks = (state: RootState) => state.tasks.items;
+export const {
+	addTaskSlice,
+	updateTaskSlice,
+	removeTaskSlice,
+	removeAllTasksSlice,
+} = tasksSlice.actions;
+export const { selectAll, selectEntities, selectIds, selectTotal, selectById } =
+	tasksAdapter.getSelectors((state: any) => state?.tasks);
+// export const  {selectIds}  = tasksAdapter.getSelectors(selectAll());
 export default tasksSlice.reducer;

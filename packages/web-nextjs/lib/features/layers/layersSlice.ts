@@ -1,49 +1,54 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 import type { RootState } from "@/lib/store";
-import { v4 as uuidv4 } from "uuid";
+import { v4 } from "uuid";
 
-export interface Layer {
+export interface LayerProps {
 	id: string;
 	title: string;
 	alias: string;
 	sortBy: string;
-	asc: boolean;
+	order: string;
 	createdAt: string;
 	updatedAt: string;
 }
 
-export const defaultLayer = {
-	id: uuidv4(),
-	title: "",
+export const defaultLayer: LayerProps = {
+	id: v4(),
+	title: "Projects",
 	alias: "",
-	sortBy: "updatedTime",
-	asc: false,
-	createdAt: "",
-	updatedAt: "",
+	sortBy: "createdAt",
+	order: "asc",
+	createdAt: Date.now().toString(),
+	updatedAt: Date.now().toString(),
 };
-
-interface Layers {
-	items: Layer[];
+export const defaultLayers: LayersProps = {
+	items: [],
+};
+export interface LayersProps {
+	items: LayerProps[];
 }
-const initialState: Layers = {
+export const initialState: LayersProps = {
 	items: [],
 };
 export const layersSlice = createSlice({
 	name: "layers",
 	initialState,
 	reducers: {
-		addLayer: (state, action: PayloadAction<Layer>) => {
+		addLayerSlice: (state, action: PayloadAction<LayerProps>) => {
 			const { title } = action.payload;
-			const layer: Layer = defaultLayer;
+			const layer: LayerProps = defaultLayer;
 			const createdAt = new Date().toLocaleTimeString();
 			const updatedAt = new Date().toLocaleTimeString();
 
 			state.items.push({ ...layer, title, createdAt, updatedAt });
 		},
+		deleteLayersSlice: (state) => {
+			return defaultLayers;
+		},
 	},
 });
 
-export const { addLayer } = layersSlice.actions;
+export const { addLayerSlice, deleteLayersSlice } = layersSlice.actions;
 export const selectLayers = (state: RootState) => state.layers.items;
 export default layersSlice.reducer;
